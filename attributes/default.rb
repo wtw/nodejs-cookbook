@@ -18,10 +18,10 @@
 #
 
 default['nodejs']['install_method'] = 'source'
-default['nodejs']['version'] = '0.10.6'
-default['nodejs']['checksum'] = '7e2079394efe82f62798178f617888c9d6a39150c76122c432ae9ea73ce28e79'
-default['nodejs']['checksum_linux_x64'] = 'cc7ccfce24ae0ebb0c50661ef8d98b5db07fc1cd4a222c5d1ae232260d5834ca'
-default['nodejs']['checksum_linux_x86'] = 'e8c75ffa508bb86b6858855d33139d63013c55b398f2258b020a84d8071b13f3'
+default['nodejs']['version'] = '0.10.7'
+default['nodejs']['checksum'] = '22d1d211f5260dfa5b842cebdb04633f28df180843105ff3eb792ca35ed425e0'
+default['nodejs']['checksum_linux_x64'] = '9fdc924b9732ddf5fe278b7888a6c2c61074b15c71795f10e908b59387d3acd8'
+default['nodejs']['checksum_linux_x86'] = '075c333977dfd0b2d674489b769f16064ec5e8f49aa57d470ea7c2b542fbeec4'
 default['nodejs']['dir'] = '/usr/local'
 default['nodejs']['npm'] = '1.2.14'
 default['nodejs']['src_url'] = "http://nodejs.org/dist"
